@@ -126,6 +126,7 @@
             bindings = <
 &lt_mkp 10 MB3  &mkp MB2  &mkp MB1  &mo 8  &mo 9  &mo 11
             >;
+        &studio_unlock
         };
 
         // レイヤー3（時計回り135°）
