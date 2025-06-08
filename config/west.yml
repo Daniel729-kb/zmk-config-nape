@@ -6,8 +6,8 @@ manifest:
       url-base: https://github.com/menbou0202
     - name: caksoylar
       url-base: https://github.com/caksoylar
-    - name: Daniel729-kb
-      url-base: https://github.com/Daniel729-kb
+    - name: karbou12
+      url-base: https://github.com/karbou12
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
@@ -16,7 +16,7 @@ manifest:
       revision: main
       import: app/west.yml
     - name: zmk-pmw3610-driver
-      remote: Daniel729-kb
+      remote: karbou12
       revision: main
     - name: zmk-rgbled-widget
       remote: caksoylar
