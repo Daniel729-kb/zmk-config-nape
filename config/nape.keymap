@@ -124,7 +124,7 @@
 
         orientation90_layer {
             bindings = <
-&lt_mkp 10 MB3  &mkp MB2  &mkp MB1  &mo 8  &mo 9  &mo 11
+&lt_mkp 10 MB3  &mkp MB1  &mkp MB2  &mo 8  &mo 9  &mo 11
             >;
         };
 
@@ -188,7 +188,7 @@
 
         scroll_layer {
             bindings = <
-&mkp MB3  &mkp MB4  &mkp MB5  &trans  &trans  &trans
+&lt_mkp 11 MB3  &lt_mkp 11 MB4  &lt_mkp 11 MB5  &trans  &trans  &trans
             >;
 
             // トラックボールの動きをスクロールに変換
@@ -202,7 +202,7 @@
 
         orientation_layer {
             bindings = <
-&to 2  &to 4  &to 6  &to 0  &to 5  &trans
+&to 5  &to 2  &to 6  &to 0  &to 4  &trans
             >;
         };
     };
